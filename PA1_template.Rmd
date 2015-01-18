@@ -5,7 +5,7 @@ output:
     keep_md: yes
 ---
 ## Loading and preprocessing the data
-1. First I will load the ggplot2 library.  I will unzip the data file, then read it. The only preprocessing I see is setting the date column in the date format. 
+1. First I will load the ggplot2 library.  I will unzip the data file, then read it. 
 ```{r}
 library(ggplot2)
 unzip("activity.zip")
